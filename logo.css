@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+#back{
+    width: 100%;
+    height: 100%;   
+    display: flex;
+    background: linear-gradient(105deg,#e4e9a0,#ee9797,#9ad9fe,#9a9afe,#f2f2f2,#f2f2f2,#f2f2f2,#f2f2f2);
+}
+#left{
+    width: 55%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    font-family: sans-serif;
+}
+a{
+    font-size: 40px;
+    position: absolute;
+    top: 10%;
+    left: 17%;
+    cursor: pointer;
+}
+#box{
+    width: 500px;
+    height: 70%;
+    position: absolute;
+    top: 20%;
+    border-radius: 20px;
+    border: 1px solid white;
+    position: relative;
+}
+h1{
+    letter-spacing: 2px;
+    word-spacing: 5px;
+ position: absolute;
+ font-size: 40px;
+ font-family: sans-serif;
+ top: 20%;
+ left: 10%;
+ cursor: pointer;
+}
+p{
+    position: absolute;
+    top: 45%;
+    left: 10%;
+    cursor: pointer;
+}
+#smlbox{
+    width: 200px;
+    height: 50px;
+    position: absolute;
+    background-color: rgb(53, 65, 241);
+    top:60% ;
+    left: 10%;
+    padding-top: 15px;
+    border-radius: 20px;
+    
+}
+h2{ 
+    letter-spacing: 2px;
+    font-size: 19px;
+    display: flex;
+    justify-content: center;
+    font-family: sans-serif;
+    color: aliceblue;
+    cursor: pointer;
+}
+#right{
+    width: 45%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top:65px ;
+    position: relative;
+}
+#heading{
+    width:500px ;
+    height: 50px;
+    /* background-color: rgb(87, 220, 224); */
+    position: relative;
+}
+#head{
+    font-family: sans-serif;
+    letter-spacing: 1px;
+   font-size: 20px;
+   word-spacing: 15px;
+    position: absolute;
+    cursor: pointer;
+    
+}
+#m{
+    position: absolute;
+    top: 16%;
+    left: 25%;
+    cursor: pointer;
+}
